@@ -11,6 +11,7 @@ const sqlInsert= (entity_name,fields) => {
     const fieldsName = "("+fields.join(",")+")";
     return (data) => {	// Принимает массив значений
         const dataStr = data.join(",");
+		// MYUSER сменить на имя пользователя или убрать
         return `INSERT INTO "MYUSER"."${entity_name}" ${fieldsName} VALUES (${entity_name}_IDS.NEXTVAL,${dataStr});`
     }
 }
