@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vacancy" directorySegmentName="seg_0" id="D4C9033D-0C1D-021A-A163-2AF54FBB96E0">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:05:49 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>D4A79169-366C-6FE0-C179-AECAF20865C2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7A06C849-E1F2-0AA2-A9F7-4B19686A8F39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>144C8F04-F692-60AF-7E8B-3DF9F15D165E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

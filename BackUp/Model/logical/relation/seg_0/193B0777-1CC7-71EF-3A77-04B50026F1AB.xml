@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ritual_FK" directorySegmentName="seg_0" id="193B0777-1CC7-71EF-3A77-04B50026F1AB">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:07 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>3763CAC3-F444-EC67-64F2-A42CAE8BA03B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BAA0A21-F073-6142-E030-E645A99EB768</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>245F865C-50F6-B4B7-631C-DBD671832850</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

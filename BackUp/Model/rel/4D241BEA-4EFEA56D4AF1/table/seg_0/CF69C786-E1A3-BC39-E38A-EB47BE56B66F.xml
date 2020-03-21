@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF69C786-E1A3-BC39-E38A-EB47BE56B66F" name="Ritual">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>7BAA0A21-F073-6142-E030-E645A99EB768</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Ritual" id="9012E8F7-F34B-232B-756C-5BC3469701F9">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>22AA5A07-EB9A-ED64-98B5-F51AEE4496F4</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>5</autoIncrementCache>
+<autoIncrementSequenceName>Ritual_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="3005C147-1CEA-B3F9-A79C-7507AC6A83BC">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>B3A93574-A6FC-ED04-A204-D83C392AE1EA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34FDA21F-A336-5020-75BD-3741602F45EB" name="Ritual_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>3763CAC3-F444-EC67-64F2-A42CAE8BA03B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9012E8F7-F34B-232B-756C-5BC3469701F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3289BE48-C8E4-77B0-CB97-0A7E37F41FEF" name="Ritual__UN">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 15:24:41 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3005C147-1CEA-B3F9-A79C-7507AC6A83BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

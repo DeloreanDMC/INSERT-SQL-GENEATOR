@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F66EA8FE-4059-5CA3-3930-35180FC6FC2A" containerWithKeyObject="580AD131-59B9-A6D2-2D7C-D94B0435CD58" localFKIndex="24D02E4E-8D12-A5BE-4E46-470D7C2997FA" name="Sabbath_Mountain_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>FD6A8FF0-ED98-91BB-8940-B3CA16FC51D2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Mountain</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E2A4477-AE04-5EC0-CB78-5A2762B9FFAC</referredTableID>
+<keyObject>1A24E6CA-86C5-0048-0D98-2589CEBB8553</keyObject>
+<referredKeyID>1A24E6CA-86C5-0048-0D98-2589CEBB8553</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Mountain</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

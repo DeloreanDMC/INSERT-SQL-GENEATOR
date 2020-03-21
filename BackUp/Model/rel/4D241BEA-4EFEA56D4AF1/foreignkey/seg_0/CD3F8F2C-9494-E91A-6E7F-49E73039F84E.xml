@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD3F8F2C-9494-E91A-6E7F-49E73039F84E" containerWithKeyObject="695D20C0-4F4F-7B89-5CB5-4D2851B8C345" localFKIndex="CA7CD8AF-03AE-E674-7F47-2F0869866583" name="Skill_Ability_Witch_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>89B0D58A-BD74-47A6-E77F-E781A8DC4183</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Witch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28BF7C97-0C67-DECE-D5CB-55CE1FB62460</referredTableID>
+<keyObject>84B83BC1-14BD-A306-9FA2-F0B26A4FA198</keyObject>
+<referredKeyID>84B83BC1-14BD-A306-9FA2-F0B26A4FA198</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Witch</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

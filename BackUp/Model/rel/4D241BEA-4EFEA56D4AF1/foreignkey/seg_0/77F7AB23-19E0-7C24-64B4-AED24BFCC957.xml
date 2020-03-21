@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77F7AB23-19E0-7C24-64B4-AED24BFCC957" containerWithKeyObject="6FAB709E-6FC0-0DC1-40A7-5474D4AC6504" localFKIndex="7577E239-DEC4-DFB5-F3C4-9679C0D678C9" name="Broom_Witch_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>3EE6BEE7-58EE-35EC-EF21-793B1EDC4C66</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Witch</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28BF7C97-0C67-DECE-D5CB-55CE1FB62460</referredTableID>
+<keyObject>84B83BC1-14BD-A306-9FA2-F0B26A4FA198</keyObject>
+<referredKeyID>84B83BC1-14BD-A306-9FA2-F0B26A4FA198</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Witch</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

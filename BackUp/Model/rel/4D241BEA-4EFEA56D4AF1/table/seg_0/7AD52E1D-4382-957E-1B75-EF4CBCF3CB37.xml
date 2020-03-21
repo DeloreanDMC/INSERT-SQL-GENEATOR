@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AD52E1D-4382-957E-1B75-EF4CBCF3CB37" name="Broom_mark">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>CCEC009C-7DDB-C40F-E46E-F50A170513A9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FDE9C4D1-B669-E1CC-AA22-27C1880F1DC1">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>E7CD470F-12D4-44F3-9B1E-F41872E89478</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>Mark_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="4A2B2D9E-0212-31E4-96B1-C56AC2141674">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>90B5BF94-FA46-65D6-6CE4-89FC1BD6BE31</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Year" id="98E0D772-D47D-FE38-F0CC-A029DA912B66">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>3C87F72C-D3F1-29E4-5E61-AB7F4555CF39</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9E36D5F-6F90-67E6-4C40-6318F1243F3A" name="Broom_mark_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>E940D94A-0833-3643-FC58-C3914B887CF6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE9C4D1-B669-E1CC-AA22-27C1880F1DC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Broom_mark_UNIQUE" directorySegmentName="seg_0" id="8D4776A6-3F4F-6928-7807-AB0C165F71F4">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-19 10:01:55 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<rule><![CDATA[UNIQUE(Title, Year)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

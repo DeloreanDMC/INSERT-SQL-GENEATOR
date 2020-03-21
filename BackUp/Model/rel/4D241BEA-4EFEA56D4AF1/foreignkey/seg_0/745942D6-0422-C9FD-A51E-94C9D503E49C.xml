@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="745942D6-0422-C9FD-A51E-94C9D503E49C" containerWithKeyObject="B6DCB705-A161-486D-2F6C-DAF60FC052F6" localFKIndex="C5E0918E-1DD3-77E4-F737-1D94EF732FCF" name="Part_In_Coven_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>16AABE63-EF9F-186D-4DC4-9E61FB2D4B97</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Coven</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61F70D6F-9192-5F11-8172-F23BB651EB76</referredTableID>
+<keyObject>E7B15474-77C9-700F-21F3-465A207758FB</keyObject>
+<referredKeyID>E7B15474-77C9-700F-21F3-465A207758FB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Coven</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

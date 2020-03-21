@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E550B89-BA45-0182-7919-38E04F52A693" name="Habitat">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>465B8B48-B450-54C2-B954-1CA74F2134E5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F35688CA-4FF1-8FD8-6FDC-C0E077BFEBEF">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>CE8B4087-AAD4-39F5-C47F-240D8B545C84</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>Habitat_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="30ACF643-9890-BE0F-6992-9586BCF3FB45">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>D81B8F05-4270-3DDF-F9FA-67D9F9D25FDA</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5A43C1C-479E-891A-F19A-C14A20F3AF7B" name="Habitat_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>8BAE05E5-185D-5C00-9296-088C0205A466</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35688CA-4FF1-8FD8-6FDC-C0E077BFEBEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24620273-68CF-065D-6F22-021B02FCD899" name="Habitat__UN">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 15:24:04 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30ACF643-9890-BE0F-6992-9586BCF3FB45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

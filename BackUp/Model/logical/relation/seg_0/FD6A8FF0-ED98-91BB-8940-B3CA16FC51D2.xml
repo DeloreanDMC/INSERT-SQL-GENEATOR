@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mountain_FK" directorySegmentName="seg_0" id="FD6A8FF0-ED98-91BB-8940-B3CA16FC51D2">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:34:44 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>0B4A476C-4EE2-A479-BB9B-85E81B8A47A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF809109-0E8C-910B-46A7-14CAF4D27902</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FCE0CF5-B0B7-41E8-C923-517362E4EFE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

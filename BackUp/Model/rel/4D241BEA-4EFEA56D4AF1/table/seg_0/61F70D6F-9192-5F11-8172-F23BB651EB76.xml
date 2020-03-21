@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61F70D6F-9192-5F11-8172-F23BB651EB76" name="Coven">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>56894A31-1193-4B86-B6EE-4B40A69FBC7A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C658B878-FAFB-8A16-1795-476BBBB9DD2D">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>4443F443-F0E3-6C0C-0EE2-3E249AC5F552</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>2</autoIncrementCache>
+<autoIncrementSequenceName>Coven_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="D063FF5E-7105-F63F-8671-4CDC95094072">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>6727A1E7-66E7-1C8D-4D14-2AC76AF69E0B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7B15474-77C9-700F-21F3-465A207758FB" name="Coven_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>2DDB44B7-3E32-56B3-B39E-0834D9AB1CEE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C658B878-FAFB-8A16-1795-476BBBB9DD2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF247C9C-4C93-3C41-F241-1CF4C89BE66E" name="Coven__UN">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 15:24:18 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D063FF5E-7105-F63F-8671-4CDC95094072"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

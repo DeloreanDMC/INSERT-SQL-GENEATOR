@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57114133-0929-1E56-1A6A-5CE36E772764" name="Position">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>7A06C849-E1F2-0AA2-A9F7-4B19686A8F39</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6C9632FF-3D3E-E1FB-FB69-16E53443B76C">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>E31A9B97-7725-FB7E-E8A9-7086C4F7053C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>2</autoIncrementCache>
+<autoIncrementSequenceName>Position_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="1752DB71-C05A-68AF-DBDE-F055D3FBC67E">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>E789E0C6-8EFD-580B-FDE2-C07BC2B2D419</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AF84A2C-73EF-99FB-EE23-5ACDAFB0A1DE" name="Position_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>D4A79169-366C-6FE0-C179-AECAF20865C2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9632FF-3D3E-E1FB-FB69-16E53443B76C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78881B94-A6B4-E2F6-261C-780CCD5082ED" name="Position__UN">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 15:26:48 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1752DB71-C05A-68AF-DBDE-F055D3FBC67E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

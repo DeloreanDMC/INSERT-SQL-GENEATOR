@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C97684A-A20A-3CCE-D9E8-930262067834" name="Ability">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:56:02 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Ability" id="325D33E5-6CCD-FB3E-2C61-4214B64A1BAE">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:33:15 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="EC8B1047-0DC8-D079-C186-C3C9B6ACB91F">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:33:57 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Source" id="8D5870AD-910D-41F4-0ABA-814DF984E1D0">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:37:34 UTC</createdTime>
+<generatorID>58EDAFE4-F30C-A4EA-2F6C-F549E3DCB6F6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>E167B1D6-F0C9-F238-9104-7A2E149C2B7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18E64347-8E43-24DA-9BDB-488BFA8B2401" name="Ability PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:33:29 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>325D33E5-6CCD-FB3E-2C61-4214B64A1BAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

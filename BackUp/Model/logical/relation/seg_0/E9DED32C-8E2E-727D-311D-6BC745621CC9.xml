@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Witch_position" directorySegmentName="seg_0" id="E9DED32C-8E2E-727D-311D-6BC745621CC9">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:03:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>67BBA6FB-9F46-9B98-8C9D-EE306B06016C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39224E8A-F32E-1816-C790-25464EA75346</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>144C8F04-F692-60AF-7E8B-3DF9F15D165E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

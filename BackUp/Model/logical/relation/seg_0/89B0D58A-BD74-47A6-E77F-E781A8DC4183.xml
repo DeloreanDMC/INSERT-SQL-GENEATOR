@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Witch_FK" directorySegmentName="seg_0" id="89B0D58A-BD74-47A6-E77F-E781A8DC4183">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:41:23 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>67BBA6FB-9F46-9B98-8C9D-EE306B06016C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>39224E8A-F32E-1816-C790-25464EA75346</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>006B0FAB-41AC-F6E5-43F6-7838CAC2E89F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

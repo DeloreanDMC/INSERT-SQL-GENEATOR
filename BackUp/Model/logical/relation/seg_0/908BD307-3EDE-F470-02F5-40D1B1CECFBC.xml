@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sabbath_FK" directorySegmentName="seg_0" id="908BD307-3EDE-F470-02F5-40D1B1CECFBC">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:39:26 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>D74189A0-3697-AEB9-0A7F-6C1D72FFD51B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FCE0CF5-B0B7-41E8-C923-517362E4EFE1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>023F5689-EDD7-952F-1528-EBF98D5F1507</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73FC1199-0D42-F649-3023-BE4C97DE04F5" name="Broom">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:56:25 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="License" id="3E0823D4-0345-F44A-4BC0-22202B567C6B">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:55:15 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mileage" id="959AA201-2B2F-A1F1-17B3-5EE6C6E978AE">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:56:38 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Witch" id="22C90D8C-CAB1-069B-7388-64267C00069D">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:57:20 UTC</createdTime>
+<generatorID>3EE6BEE7-58EE-35EC-EF21-793B1EDC4C66</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>C8C580C0-E735-48D1-992D-A68DD99D6FFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Mark" id="25A6B6F6-11C9-DF05-3BA6-11CCAC706C58">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:05:39 UTC</createdTime>
+<generatorID>6625BC4B-8095-5FFE-5D35-DFE8C99AF71E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>E7CD470F-12D4-44F3-9B1E-F41872E89478</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CC1457E-3437-A52E-4336-8E38F39F1ABE" name="Broom PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:56:21 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E0823D4-0345-F44A-4BC0-22202B567C6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

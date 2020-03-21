@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="023F5689-EDD7-952F-1528-EBF98D5F1507" name="Part_In">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:58:35 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name=" Sponsor" id="C63ED3D0-2220-3923-4224-C7B98FEB2571">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:37:09 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Coven" id="AF26515A-DBDE-5F8D-1681-036BA5C051A7">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:38:05 UTC</createdTime>
+<generatorID>16AABE63-EF9F-186D-4DC4-9E61FB2D4B97</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>4443F443-F0E3-6C0C-0EE2-3E249AC5F552</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Sabbath" id="D4460646-CF94-7175-026D-E7FAFDF34490">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:39:26 UTC</createdTime>
+<generatorID>908BD307-3EDE-F470-02F5-40D1B1CECFBC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>F561555B-6F19-2E8A-1CCA-81908A7263B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7238CA7-94F4-CCA1-CB89-BC89C991E594" name="Part_In PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:38:05 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF26515A-DBDE-5F8D-1681-036BA5C051A7</attributeRef>
+<attributeRef>D4460646-CF94-7175-026D-E7FAFDF34490</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="77285168-D7A0-DE98-E16F-BB1FE533F754" containerWithKeyObject="6FAB709E-6FC0-0DC1-40A7-5474D4AC6504" localFKIndex="5946D816-0F36-F37E-D4F7-66C76CEDDECD" name="Broom_Broom_mark_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>6625BC4B-8095-5FFE-5D35-DFE8C99AF71E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Broom_mark</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AD52E1D-4382-957E-1B75-EF4CBCF3CB37</referredTableID>
+<keyObject>D9E36D5F-6F90-67E6-4C40-6318F1243F3A</keyObject>
+<referredKeyID>D9E36D5F-6F90-67E6-4C40-6318F1243F3A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Mark</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

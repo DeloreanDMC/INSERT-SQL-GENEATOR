@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0C2E6E3-DA91-BCFE-016C-73BD2A68DDAD" name="Ritual_Accounting">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>245F865C-50F6-B4B7-631C-DBD671832850</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number" id="6472F206-663A-812B-FED5-6FF5E09F5242">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>C15D48D6-8C25-7737-676F-304A59AAB64C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Sabbath_ID" id="85DDBAD3-CB23-EF73-25F4-4E90222C7B4B">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>88F25F6D-11F4-6DB4-F902-E2BFEAF5B370</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="699BBBE8-A693-E80A-1DEA-D33FFF58598D" referredColumn="AE8FDD32-8542-6803-3E84-1491051B2811"/>
+</associations>
+</Column>
+<Column name="Ritual_ID" id="ED40EE9B-CB49-A9B7-C19E-9B6543770BE0">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>A325A5F4-43E1-3FF1-51E2-D5DEB4901A5D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1CD6F75-5A54-4981-0E1A-EC3F1B5F8C2B" referredColumn="9012E8F7-F34B-232B-756C-5BC3469701F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D09F4B48-F7D3-3F0D-8EA3-29B7F69C1211" name="Ritual_Accounting_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>0A350372-4EAD-1B14-3C4C-267FC3572720</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6472F206-663A-812B-FED5-6FF5E09F5242"/>
+<colUsage columnID="85DDBAD3-CB23-EF73-25F4-4E90222C7B4B"/>
+<colUsage columnID="ED40EE9B-CB49-A9B7-C19E-9B6543770BE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BEFD5C4-6965-604D-89A2-5471E0FD558F" name="Ritual_Accounting_Ritual_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>193B0777-1CC7-71EF-3A77-04B50026F1AB</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED40EE9B-CB49-A9B7-C19E-9B6543770BE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA658B1C-2F68-46DC-37BF-F4E943F19734" name="Ritual_Accounting_Sabbath_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>D2885572-F6A3-A9CE-C5E5-C8D4B8F21F5D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85DDBAD3-CB23-EF73-25F4-4E90222C7B4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

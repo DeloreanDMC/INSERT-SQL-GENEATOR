@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Coven_member" directorySegmentName="seg_0" id="91DD7234-00BF-D7D1-8CC1-CE553A2AB466">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 10:50:45 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>2DDB44B7-3E32-56B3-B39E-0834D9AB1CEE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>56894A31-1193-4B86-B6EE-4B40A69FBC7A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39224E8A-F32E-1816-C790-25464EA75346</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

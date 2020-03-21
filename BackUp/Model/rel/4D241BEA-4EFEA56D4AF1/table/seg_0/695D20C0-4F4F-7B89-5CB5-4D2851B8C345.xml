@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="695D20C0-4F4F-7B89-5CB5-4D2851B8C345" name="Skill_Ability">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>006B0FAB-41AC-F6E5-43F6-7838CAC2E89F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Level" id="303B1E83-598A-8D79-546B-9EAFB526D5F2">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>1280A8B4-BF00-32CA-3F02-D3CE16C1316C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>10</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Confirm_date" id="90779FE4-8F06-00B0-931D-55BBCA2A00FA">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>8E3573B1-1283-ED20-7686-279549BB3E78</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Witch_ID" id="64B79812-DCD0-A868-DF19-2F0AD232240B">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>AEDD3EFA-7990-48CC-372D-3E2244820E59</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD3F8F2C-9494-E91A-6E7F-49E73039F84E" referredColumn="88C5E701-4308-3136-F67A-104ECDD66C2A"/>
+</associations>
+</Column>
+<Column name="Ability_ID" id="484AF9DE-85FC-163F-A365-721EB5326C9E">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>928EAD41-86E1-264D-640A-BE50F70AB196</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594E16F5-CB4F-2380-35C6-2CD4FA070FB1" referredColumn="98949043-BC0F-CFAE-7441-935C8FC07146"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B19DD8D5-77FD-F6D0-665A-C67B2086912B" name="Skill_Ability_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>F5926B83-5404-BA8D-446D-761AB19D2053</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303B1E83-598A-8D79-546B-9EAFB526D5F2"/>
+<colUsage columnID="90779FE4-8F06-00B0-931D-55BBCA2A00FA"/>
+<colUsage columnID="64B79812-DCD0-A868-DF19-2F0AD232240B"/>
+<colUsage columnID="484AF9DE-85FC-163F-A365-721EB5326C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B34CF40-9AA6-0F66-5506-0B29F2180AE8" name="Skill_Ability_Ability_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>5A5FEABD-D8EE-6CA0-35C7-A7FD5932115D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="484AF9DE-85FC-163F-A365-721EB5326C9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA7CD8AF-03AE-E674-7F47-2F0869866583" name="Skill_Ability_Witch_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>89B0D58A-BD74-47A6-E77F-E781A8DC4183</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64B79812-DCD0-A868-DF19-2F0AD232240B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

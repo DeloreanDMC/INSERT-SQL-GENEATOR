@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ability_FK" directorySegmentName="seg_0" id="5A5FEABD-D8EE-6CA0-35C7-A7FD5932115D">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:44:55 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>18E64347-8E43-24DA-9BDB-488BFA8B2401</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C97684A-A20A-3CCE-D9E8-930262067834</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>006B0FAB-41AC-F6E5-43F6-7838CAC2E89F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

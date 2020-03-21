@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6DCB705-A161-486D-2F6C-DAF60FC052F6" name="Part_In">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>023F5689-EDD7-952F-1528-EBF98D5F1507</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sponsor" id="BF2ED6B8-6CC8-C192-1048-54A9719B2B80">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>C63ED3D0-2220-3923-4224-C7B98FEB2571</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description=""/>
+<valueDef value="Y" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coven_ID" id="39E95C5F-AEFF-FA9C-FE74-98507CA9D0E3">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>AF26515A-DBDE-5F8D-1681-036BA5C051A7</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="745942D6-0422-C9FD-A51E-94C9D503E49C" referredColumn="C658B878-FAFB-8A16-1795-476BBBB9DD2D"/>
+</associations>
+</Column>
+<Column name="Sabbath_ID" id="E67DED20-A6AD-4FBC-9494-85472412D5FE">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>D4460646-CF94-7175-026D-E7FAFDF34490</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82701AB0-8C31-309C-9543-11B38B6CCCA2" referredColumn="AE8FDD32-8542-6803-3E84-1491051B2811"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAD9F5A6-283D-5E94-931E-1871A81DD715" name="Part_In_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>A7238CA7-94F4-CCA1-CB89-BC89C991E594</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E95C5F-AEFF-FA9C-FE74-98507CA9D0E3"/>
+<colUsage columnID="E67DED20-A6AD-4FBC-9494-85472412D5FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E0918E-1DD3-77E4-F737-1D94EF732FCF" name="Part_In_Coven_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>16AABE63-EF9F-186D-4DC4-9E61FB2D4B97</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E95C5F-AEFF-FA9C-FE74-98507CA9D0E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2728C5D6-DFA2-2A04-572D-49B13DE3CA93" name="Part_In_Sabbath_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>908BD307-3EDE-F470-02F5-40D1B1CECFBC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E67DED20-A6AD-4FBC-9494-85472412D5FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

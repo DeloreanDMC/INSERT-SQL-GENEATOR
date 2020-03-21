@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FAB709E-6FC0-0DC1-40A7-5474D4AC6504" name="Broom">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>73FC1199-0D42-F649-3023-BE4C97DE04F5</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="License" id="356EDBDA-238B-F584-F350-C9831319046C">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>3E0823D4-0345-F44A-4BC0-22202B567C6B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="А111АА" description=""/>
+<valueDef value="А111АБ" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<generateConstraintInDDL>NO</generateConstraintInDDL>
+</Column>
+<Column name="Mileage" id="C9EAD0AE-D470-A36B-B7BA-B71AE5ADFDA6">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>959AA201-2B2F-A1F1-17B3-5EE6C6E978AE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>99999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Witch_ID" id="DC5CC553-3F3D-5BB2-DC2D-D2E8C0F18A04">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>22C90D8C-CAB1-069B-7388-64267C00069D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77F7AB23-19E0-7C24-64B4-AED24BFCC957" referredColumn="88C5E701-4308-3136-F67A-104ECDD66C2A"/>
+</associations>
+</Column>
+<Column name="Mark_ID" id="EA7EE2D9-67EC-1D7E-96A4-7D43BB8853F1">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>25A6B6F6-11C9-DF05-3BA6-11CCAC706C58</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77285168-D7A0-DE98-E16F-BB1FE533F754" referredColumn="FDE9C4D1-B669-E1CC-AA22-27C1880F1DC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC7CBBB8-6A0F-0B0A-E75B-9925B8EFBEB6" name="Broom_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>9CC1457E-3437-A52E-4336-8E38F39F1ABE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356EDBDA-238B-F584-F350-C9831319046C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7577E239-DEC4-DFB5-F3C4-9679C0D678C9" name="Broom_Witch_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>3EE6BEE7-58EE-35EC-EF21-793B1EDC4C66</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC5CC553-3F3D-5BB2-DC2D-D2E8C0F18A04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5946D816-0F36-F37E-D4F7-66C76CEDDECD" name="Broom_Broom_mark_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>6625BC4B-8095-5FFE-5D35-DFE8C99AF71E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA7EE2D9-67EC-1D7E-96A4-7D43BB8853F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

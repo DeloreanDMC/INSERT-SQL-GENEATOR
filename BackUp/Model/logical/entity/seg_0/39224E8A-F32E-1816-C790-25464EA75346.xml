@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39224E8A-F32E-1816-C790-25464EA75346" name="Witch">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:54:07 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Witch" id="C8C580C0-E735-48D1-992D-A68DD99D6FFC">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:59:43 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Full_name" id="36F965E0-9ED2-DBBB-DC55-0374762451FE">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:02:16 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birthday_date" id="146DD645-41E8-32C8-01AF-ABC84728EED9">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:03:21 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Death_date" id="A232E3B3-75D9-41FA-5DCC-3AAD77DBA41A">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:09:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[death]]></commentInRDBMS>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Habitat" id="86F6C992-7123-434E-D0C5-4CC7542D98C8">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:29:29 UTC</createdTime>
+<generatorID>B6CA1D5A-D615-9DCC-A449-43977F1481BD</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>CE8B4087-AAD4-39F5-C47F-240D8B545C84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cause" id="F21D64A8-017E-40CC-0D15-62CA2A3FF506">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:18:53 UTC</createdTime>
+<generatorID>299A9267-3A0D-362B-53C8-7079F5077666</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C62501EA-1328-FA69-4C32-52116485C275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Coven" id="07D3D6B8-538D-18B9-2990-034E8AEB4CD7">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 10:50:45 UTC</createdTime>
+<generatorID>91DD7234-00BF-D7D1-8CC1-CE553A2AB466</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>4443F443-F0E3-6C0C-0EE2-3E249AC5F552</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67BBA6FB-9F46-9B98-8C9D-EE306B06016C" name="Witch PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:08:23 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8C580C0-E735-48D1-992D-A68DD99D6FFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

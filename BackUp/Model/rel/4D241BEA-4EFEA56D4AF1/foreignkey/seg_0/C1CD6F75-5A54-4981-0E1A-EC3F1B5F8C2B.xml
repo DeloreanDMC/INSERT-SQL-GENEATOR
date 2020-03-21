@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1CD6F75-5A54-4981-0E1A-EC3F1B5F8C2B" containerWithKeyObject="D0C2E6E3-DA91-BCFE-016C-73BD2A68DDAD" localFKIndex="3BEFD5C4-6965-604D-89A2-5471E0FD558F" name="Ritual_Accounting_Ritual_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>193B0777-1CC7-71EF-3A77-04B50026F1AB</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<referredTableLongName>Ritual</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF69C786-E1A3-BC39-E38A-EB47BE56B66F</referredTableID>
+<keyObject>34FDA21F-A336-5020-75BD-3741602F45EB</keyObject>
+<referredKeyID>34FDA21F-A336-5020-75BD-3741602F45EB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Ritual</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

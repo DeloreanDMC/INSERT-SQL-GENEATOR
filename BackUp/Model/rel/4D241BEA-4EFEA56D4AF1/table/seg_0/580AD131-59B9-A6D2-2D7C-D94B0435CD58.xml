@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="580AD131-59B9-A6D2-2D7C-D94B0435CD58" name="Sabbath">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>4FCE0CF5-B0B7-41E8-C923-517362E4EFE1</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AE8FDD32-8542-6803-3E84-1491051B2811">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>F561555B-6F19-2E8A-1CCA-81908A7263B8</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>10</autoIncrementCache>
+<autoIncrementSequenceName>Sabbath_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Night" id="1FD578E3-DA0A-3AC5-CDCE-4AF9BFD4AF97">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>0F81E6B3-382F-9CF7-A528-BF91483A8B3A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mountain_ID" id="05B08F1F-F5B4-EF5C-9C44-149D3B92E570">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>20D24656-F93F-5C18-922F-F1F8C22E3B3F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F66EA8FE-4059-5CA3-3930-35180FC6FC2A" referredColumn="1B466856-07F8-150D-AB72-39B98BDA6613"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2910F642-1843-9417-CBCB-995404DE4343" name="Sabbath_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>D74189A0-3697-AEB9-0A7F-6C1D72FFD51B</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE8FDD32-8542-6803-3E84-1491051B2811"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24D02E4E-8D12-A5BE-4E46-470D7C2997FA" name="Sabbath_Mountain_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>FD6A8FF0-ED98-91BB-8940-B3CA16FC51D2</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05B08F1F-F5B4-EF5C-9C44-149D3B92E570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Sabbath_UNIQUE" directorySegmentName="seg_0" id="21C603E1-F86C-A755-7F26-9B11B0AAED0E">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-19 10:03:39 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<rule><![CDATA[UNIQUE(Night, Mountain_ID)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF70D868-4913-4A32-FB39-5EBCD1758E22" name="Ability">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>8C97684A-A20A-3CCE-D9E8-930262067834</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="98949043-BC0F-CFAE-7441-935C8FC07146">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>325D33E5-6CCD-FB3E-2C61-4214B64A1BAE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>10</autoIncrementCache>
+<autoIncrementSequenceName>Ability_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Title" id="E4A5D16A-0E3F-D84F-0CFB-2BA14DB0EADB">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>EC8B1047-0DC8-D079-C186-C3C9B6ACB91F</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Source_ID" id="639A4ECE-61FF-EE43-C455-11AA6F1FECB5">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>8D5870AD-910D-41F4-0ABA-814DF984E1D0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CBAF2DA-4902-8E4B-D1E5-42E350A1A184" referredColumn="1932B4E5-3467-3B33-2743-580F1E375714"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD7EEA8F-9E8A-2190-EFF5-4FFCF4033F1E" name="Ability_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:36 UTC</createdTime>
+<generatorID>18E64347-8E43-24DA-9BDB-488BFA8B2401</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98949043-BC0F-CFAE-7441-935C8FC07146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5922F62-E4B3-2ECB-D717-0C98350A90D2" name="Ability_Source_of_power_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>58EDAFE4-F30C-A4EA-2F6C-F549E3DCB6F6</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="639A4ECE-61FF-EE43-C455-11AA6F1FECB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Ability_UNIQUE" directorySegmentName="seg_0" id="9D8D676C-3D8B-3183-4118-8E20E29B80E0">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-19 10:01:09 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<rule><![CDATA[UNIQUE(Title,Source_ID)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

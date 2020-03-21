@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="006B0FAB-41AC-F6E5-43F6-7838CAC2E89F" name="Skill_Ability">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 14:55:44 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Level" id="1280A8B4-BF00-32CA-3F02-D3CE16C1316C">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:38:26 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Confirm_date" id="8E3573B1-1283-ED20-7686-279549BB3E78">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:38:48 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Witch" id="AEDD3EFA-7990-48CC-372D-3E2244820E59">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:41:23 UTC</createdTime>
+<generatorID>89B0D58A-BD74-47A6-E77F-E781A8DC4183</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>C8C580C0-E735-48D1-992D-A68DD99D6FFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Ability" id="928EAD41-86E1-264D-640A-BE50F70AB196">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:44:55 UTC</createdTime>
+<generatorID>5A5FEABD-D8EE-6CA0-35C7-A7FD5932115D</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<referedAttribute>325D33E5-6CCD-FB3E-2C61-4214B64A1BAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5926B83-5404-BA8D-446D-761AB19D2053" name="Skill_Ability PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 15:38:42 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1280A8B4-BF00-32CA-3F02-D3CE16C1316C</attributeRef>
+<attributeRef>8E3573B1-1283-ED20-7686-279549BB3E78</attributeRef>
+<attributeRef>AEDD3EFA-7990-48CC-372D-3E2244820E59</attributeRef>
+<attributeRef>928EAD41-86E1-264D-640A-BE50F70AB196</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

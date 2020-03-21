@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cause_death_FK" directorySegmentName="seg_0" id="299A9267-3A0D-362B-53C8-7079F5077666">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:18:53 UTC</createdTime>
+<ownerDesignName>Model</ownerDesignName>
+<engineerTo>
+<item key="4D241BEA-249B-1EFB-9837-4EFEA56D4AF1" value="true"/>
+</engineerTo>
+<sourcePk>DB62A05A-F1C3-1A68-B97D-3F831419BCA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18C28A03-78EE-3F19-D6AA-1DD1493CF3E1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39224E8A-F32E-1816-C790-25464EA75346</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

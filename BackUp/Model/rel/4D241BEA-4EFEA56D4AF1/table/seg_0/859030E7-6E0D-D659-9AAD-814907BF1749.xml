@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="859030E7-6E0D-D659-9AAD-814907BF1749" name="Taking_office">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>144C8F04-F692-60AF-7E8B-3DF9F15D165E</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Entry_date" id="B3994D02-D117-D148-20B1-B0724F8DF90C">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>DA1C1755-9DF6-7DD7-F790-D9A05D23A424</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Witch_ID" id="42908CAA-775C-96EC-5CC4-302F468FB4C5">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>336670EE-A38F-255D-3717-F64E5833B400</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78E09591-61F4-52B0-D399-3AA850B2F7B0" referredColumn="88C5E701-4308-3136-F67A-104ECDD66C2A"/>
+</associations>
+</Column>
+<Column name="Position_ID" id="AAE69EF3-A16B-8527-8AE9-2667F4717C4A">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>0A9F22BE-1324-145C-ACF2-DBD2B88DD1DF</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8897E8DC-5B8C-16B6-4BEF-14FEBB5CDDF1" referredColumn="6C9632FF-3D3E-E1FB-FB69-16E53443B76C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A64FA079-0437-FF73-0D34-ABDE5C97B724" name="Taking_office_PK">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>8C6A3F2E-9400-124A-56DF-B80CE908865A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3994D02-D117-D148-20B1-B0724F8DF90C"/>
+<colUsage columnID="42908CAA-775C-96EC-5CC4-302F468FB4C5"/>
+<colUsage columnID="AAE69EF3-A16B-8527-8AE9-2667F4717C4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFE6B853-E17C-3F1A-74DC-ECABE9456AFB" name="Taking_office_Position_FK">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>D4C9033D-0C1D-021A-A163-2AF54FBB96E0</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE69EF3-A16B-8527-8AE9-2667F4717C4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B5F6876-F0E7-B7C3-AFC5-62D8CC8D39F4" name="Taking_office_Witch_FK">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>E9DED32C-8E2E-727D-311D-6BC745621CC9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42908CAA-775C-96EC-5CC4-302F468FB4C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

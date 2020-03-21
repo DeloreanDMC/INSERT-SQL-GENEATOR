@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28BF7C97-0C67-DECE-D5CB-55CE1FB62460" name="Witch">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>39224E8A-F32E-1816-C790-25464EA75346</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="88C5E701-4308-3136-F67A-104ECDD66C2A">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>C8C580C0-E735-48D1-992D-A68DD99D6FFC</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementMaxValue>6666666</autoIncrementMaxValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementCache>10</autoIncrementCache>
+<autoIncrementSequenceName>Witch_IDS</autoIncrementSequenceName>
+</Column>
+<Column name="Full_name" id="D00329F6-7CC9-05F7-FD1E-C2E8A161DACF">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>36F965E0-9ED2-DBBB-DC55-0374762451FE</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Birthday_date" id="2D899134-9E89-488D-6A75-C1038F652FC1">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>146DD645-41E8-32C8-01AF-ABC84728EED9</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Death_date" id="5807927B-6F6A-83FE-04C9-03CC58515F44">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[death]]></commentInRDBMS>
+<generatorID>A232E3B3-75D9-41FA-5DCC-3AAD77DBA41A</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Habitat_ID" id="D4302260-73F3-0F0D-A362-FE299DEDA9B4">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>86F6C992-7123-434E-D0C5-4CC7542D98C8</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7988380-F8CD-9585-E977-26A173EDB745" referredColumn="F35688CA-4FF1-8FD8-6FDC-C0E077BFEBEF"/>
+</associations>
+</Column>
+<Column name="Why_died_ID" id="F09BD581-58FA-C231-6548-10275C2DC86D">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>F21D64A8-017E-40CC-0D15-62CA2A3FF506</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6273844C-415E-DCB5-864C-D798159D3400" referredColumn="2A93A759-E8D7-0C1A-A971-5AD2646A38E4"/>
+</associations>
+</Column>
+<Column name="Coven_ID" id="1244D23A-3064-94CD-06E2-10FD95C36464">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>07D3D6B8-538D-18B9-2990-034E8AEB4CD7</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B7D62DD-1103-3878-324D-6E53F1821ED6" referredColumn="C658B878-FAFB-8A16-1795-476BBBB9DD2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84B83BC1-14BD-A306-9FA2-F0B26A4FA198" name="Witch_PK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>67BBA6FB-9F46-9B98-8C9D-EE306B06016C</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C5E701-4308-3136-F67A-104ECDD66C2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4543ADB-3A6C-BB56-362B-297300EF2810" name="Witch_Cause_of_death_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>299A9267-3A0D-362B-53C8-7079F5077666</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09BD581-58FA-C231-6548-10275C2DC86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB4C96F3-9D72-0F9C-CDDF-5E4D234A2373" name="Witch_Habitat_FK">
+<createdBy>Администратор</createdBy>
+<createdTime>2020-02-19 16:45:37 UTC</createdTime>
+<generatorID>B6CA1D5A-D615-9DCC-A449-43977F1481BD</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4302260-73F3-0F0D-A362-FE299DEDA9B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B92E7A8C-1D74-DA58-E6C1-6D309F90FA8C" name="Witch_Coven_FK">
+<createdBy>Константин</createdBy>
+<createdTime>2020-03-14 14:17:24 UTC</createdTime>
+<generatorID>91DD7234-00BF-D7D1-8CC1-CE553A2AB466</generatorID>
+<ownerDesignName>Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1244D23A-3064-94CD-06E2-10FD95C36464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
